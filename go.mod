@@ -30,3 +30,7 @@ require (
 	golang.org/x/sys v0.15.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
+
+// Personal fork - removing the dryad.tech/go-billy dependency in favour of
+// the canonical go-git/go-billy module. The dryad.tech entry above is kept
+// temporarily until all import paths are migrated.
