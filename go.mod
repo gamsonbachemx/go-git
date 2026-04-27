@@ -40,3 +40,5 @@ require (
 //   to avoid unexpected breakage during local testing.
 // - golang.org/x/sys is pinned to v0.15.0 to match the crypto/net versions
 //   above; upgrading all three together is safer than upgrading sys alone.
+// - TODO: explore replacing gopkg.in/check.v1 with standard testing + testify
+//   as a learning exercise; check.v1 is largely unmaintained upstream.
