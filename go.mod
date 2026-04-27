@@ -38,3 +38,5 @@ require (
 // - Forked for learning purposes and local experimentation.
 // - golang.org/x/crypto and golang.org/x/net are pinned to specific versions
 //   to avoid unexpected breakage during local testing.
+// - golang.org/x/sys is pinned to v0.15.0 to match the crypto/net versions
+//   above; upgrading all three together is safer than upgrading sys alone.
