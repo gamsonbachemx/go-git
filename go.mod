@@ -33,3 +33,8 @@ require (
 // Migration complete: removed dryad.tech/go-billy/v5 in favour of the
 // canonical github.com/go-git/go-billy/v5 module. All import paths have
 // been updated accordingly.
+
+// Personal fork notes:
+// - Forked for learning purposes and local experimentation.
+// - golang.org/x/crypto and golang.org/x/net are pinned to specific versions
+//   to avoid unexpected breakage during local testing.
