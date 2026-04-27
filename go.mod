@@ -3,7 +3,6 @@ module github.com/go-git/go-git/v5
 go 1.21
 
 require (
-	dryad.tech/go-billy/v5 v5.5.0
 	github.com/ProtonMail/go-crypto v1.0.0
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
 	github.com/emirpasic/gods v1.18.1
@@ -31,6 +30,6 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
 
-// Personal fork - removing the dryad.tech/go-billy dependency in favour of
-// the canonical go-git/go-billy module. The dryad.tech entry above is kept
-// temporarily until all import paths are migrated.
+// Migration complete: removed dryad.tech/go-billy/v5 in favour of the
+// canonical github.com/go-git/go-billy/v5 module. All import paths have
+// been updated accordingly.
