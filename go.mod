@@ -42,3 +42,6 @@ require (
 //   above; upgrading all three together is safer than upgrading sys alone.
 // - TODO: explore replacing gopkg.in/check.v1 with standard testing + testify
 //   as a learning exercise; check.v1 is largely unmaintained upstream.
+// - NOTE: github.com/rogpeppe/go-internal is a transitive dep of
+//   gopkg.in/check.v1 (via kr/pretty); if check.v1 is replaced this can
+//   likely be dropped as well.
